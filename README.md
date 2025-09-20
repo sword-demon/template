@@ -81,3 +81,12 @@ cargo nextest 是一个 Rust 增强测试工具。
 ```bash
 cargo install cargo-nextest --locked
 ```
+
+## 使用 cargo generate 生成项目问题解决
+
+fork 原`template`源码地址，下来添加`cargo-generate.toml`
+
+```toml
+[template]
+exclude = ["cliff.toml"]
+```
